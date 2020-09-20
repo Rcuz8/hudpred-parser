@@ -1,0 +1,30 @@
+{
+  "name": "hudl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc mocha --exit $(find test -name '*.js')",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "casper": "^0.1.1",
+    "casperjs": "^1.1.4",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-color": "^2.0.0",
+    "express": "^4.17.1",
+    "indent-string": "^4.0.0",
+    "jsdom": "^16.2.2",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "puppeteer": "^3.0.4",
+    "spooky": "^0.2.5",
+    "websocket": "^1.0.31"
+  }
+}
