@@ -854,8 +854,8 @@ module.exports = {
 
 
 // app.get('/login', async (req, res) => {
-//   let user = "***REMOVED***";
-//   let pass = "***REMOVED***";
+//   let user = process.env.HUDL_EMAIL;
+//   let pass = process.env.HUDL_PASSWORD;
 //   let info = await newsession(user,pass);
 //   res.send(info);
 // })
@@ -883,8 +883,8 @@ module.exports = {
 // });
 
 // var test = async () => {
-//   let user = "***REMOVED***";
-//   let pass = "***REMOVED***";
+//   let user = process.env.HUDL_EMAIL;
+//   let pass = process.env.HUDL_PASSWORD;
 //   let info = await newsession(user,pass);
 //   let options = await getFirstVideoOptions();
 //   console.log('Final Options: ' + options.map((opt,i) => ('Option #' + i + ' : ' + JSON.stringify(opt, null, 2))));
